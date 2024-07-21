@@ -4,7 +4,7 @@ import './ListComponent.css';
 
 const ListComponent = () =>{
 
-  const [tasks, setTask] = useState(["Eat Breakfast", "Take a Shower", "Walk with the Dog"]);
+  const [tasks, setTask] = useState([]);
   const [newTask, setNewTasks ]=useState("");
   
   function inputHandler (event){
